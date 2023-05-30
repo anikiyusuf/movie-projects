@@ -44,6 +44,7 @@ const SinglePage = ()   => {
                     </div>
                 </section> 
                 <Upcomming items={rec} title='Recommended Movies'/>
+            
                </> 
             ) : (" no")}
         </>
