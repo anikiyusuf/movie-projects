@@ -1,0 +1,141 @@
+header{
+    height: 10vh;
+    line-height: 10vh;
+    background-image:linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    color:#fff;
+    position: relative;
+    z-index: 999;
+    
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+  }
+.flexSB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header a{
+    color:#fff;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 13rem;
+  }
+
+header svg{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 10px;
+
+}
+
+.account{
+    margin-left:10rem;
+}
+
+header button {
+    border-radius:10px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.mobileList{
+    display: none;
+}
+
+
+@media (max-width:1200px){
+  ul {
+        margin-left:4rem;
+      }
+      
+.account{
+    margin-left:2rem;
+}
+
+}
+
+
+@media (max-width:992px){
+   
+    .desktopList{
+        display: none;
+
+    }
+    .account{
+        display: none;
+    }
+    .mobileList{
+        display: block;
+        position: absolute;
+         color: #Fff;
+         top:0;
+         bottom: 0;
+         right:20px;
+         margin: 1rem auto;
+         transition: 1ms ease;
+         flex-direction: column;
+         cursor: pointer;
+    }
+   
+
+
+    .mobileItems{
+        position: absolute;
+        margin-top: 2rem;
+        margin-left:-30rem;
+        width:20rem;
+        height:25rem;
+        background-color: gray;
+    }
+    .mobileItem{
+       display:grid;
+       grid-template-columns: repeat(1 , 2fr);
+     }
+   
+    .accountMobile{
+        white-space: normal;
+        padding:2rem;
+        margin-top: -2rem;
+    }
+    .accountMobile button{
+        padding:.5rem;
+    }
+   
+}
+
+@media (max-width:768px){
+    header{
+        height: 10vh;
+    }
+     .logo{
+        margin-left: 2rem;
+     }
+     .mobileList{
+        margin-right: 2rem;
+     }
+     .mobileItems{
+        margin-left: -25rem;
+     }
+}
+
+@media (max-width:600px){
+    .mobileItems{
+        margin-left: -17rem;
+        height: 30rem;
+     }
+}
