@@ -30,11 +30,13 @@ footer p{
 footer .img{
     margin-top: 40px;
     margin-right: 2rem;
+    gap: 3rem;
 }
 footer span{
     font-size: 12px;
     white-space: nowrap;
 }
+
 
 @media  (max-width:768px){
     footer .container{
@@ -79,6 +81,11 @@ footer span{
     font-size: 12px;
     white-space: nowrap;
 }
+footer .img{
+    margin-top: 40px;
+    margin-right:1rem;
+    gap: 3rem;
+}
 }
 
 
@@ -112,4 +119,42 @@ footer p{
     margin-left: 3rem;
 }
 
+footer .img{
+    margin-top: 40px;
+    margin-right: 1rem;
+    gap: 2rem;
+}
+}
+@media(max-width:435px){
+     
+    footer{
+        font-size: 13px;
+    }
+footer ul{
+    margin-bottom: 10px;
+//   margin-right:10rem;
+text-align: center;
+
+    
+    
+}
+footer .img{
+    margin-top: 40px;
+    margin-right:1rem;
+    gap: 1rem;
+}
+
+
+footer ul li{
+    margin-right:5px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+footer p{
+    // padding:1rem 1rem 1rem 1rem ;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 2rem;
+}
 }

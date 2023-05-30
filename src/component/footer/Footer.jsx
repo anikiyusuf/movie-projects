@@ -21,10 +21,14 @@ const Footer = () => {
                     <div className='box '>
                         <h3>Stream It App</h3>
                         <div className="img flexSB">
+                        <div className="logoOne">
                         <img src='https://img.icons8.com/color/48/000000/apple-app-store--v3.png' />
               <span>App Store</span>
+</div>
+<div className="logoTwo">
               <img src='https://img.icons8.com/fluency/48/000000/google-play.png' />
               <span>Google Play Store</span>
+                        </div>
                         </div>
                     </div>
                 </div>

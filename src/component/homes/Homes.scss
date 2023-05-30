@@ -1,5 +1,4 @@
 .home{
- 
     top:0;
     left:0;
     height:100vh;
@@ -78,6 +77,7 @@
   .home .content {
     flex-direction: column;
     padding: 50px;
+  
   }
 
   .cast h4 span {
@@ -151,5 +151,21 @@
     }
     .mragin {
       margin-top: 0% !important;
+    }
+  }
+
+
+  @media (max-width:600px){
+    .home .content {
+      margin-top: -3rem;
+  
+    }
+  
+    .cast{
+      margin-top: -1rem;
+    }
+    .primary-btn{
+      margin-top: -10rem;
+      // margin-bottom: 5rem;
     }
   }
